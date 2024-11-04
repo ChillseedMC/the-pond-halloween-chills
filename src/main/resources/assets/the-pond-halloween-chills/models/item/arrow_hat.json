@@ -1,0 +1,65 @@
+{
+	"parent": "the-pond-halloween-chills:item/hat",
+	"credit": "Made with Blockbench by Chillseed",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "the-pond-halloween-chills:item/arrow_hat",
+		"particle": "the-pond-halloween-chills:item/arrow_hat"
+	},
+	"elements": [
+		{
+			"name": "arrow",
+			"from": [0, 4, 6],
+			"to": [16, 4, 10],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [5, 0, 9, 1], "texture": "#0"},
+				"east": {"uv": [5, 0, 9, 1], "texture": "#0"},
+				"south": {"uv": [5, 0, 9, 1], "texture": "#0"},
+				"west": {"uv": [5, 0, 9, 1], "texture": "#0"},
+				"up": {"uv": [9, 1, 5, 0], "texture": "#0"},
+				"down": {"uv": [9, 0, 5, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "arrow",
+			"from": [0, 4, 6],
+			"to": [16, 4, 10],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [5, 0, 9, 1], "texture": "#0"},
+				"east": {"uv": [5, 0, 9, 1], "texture": "#0"},
+				"south": {"uv": [5, 0, 9, 1], "texture": "#0"},
+				"west": {"uv": [5, 0, 9, 1], "texture": "#0"},
+				"up": {"uv": [9, 1, 5, 0], "texture": "#0"},
+				"down": {"uv": [9, 0, 5, 1], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-6, 4, 16.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-6, 4.25, 16.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 103.75],
+			"translation": [-3.25, -6, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 121.5],
+			"translation": [0, -6.25, 0]
+		},
+		"gui": {
+			"translation": [0, 4, 0]
+		},
+		"head": {
+			"translation": [0, 8.25, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"translation": [0, 4.25, 0]
+		}
+	}
+}

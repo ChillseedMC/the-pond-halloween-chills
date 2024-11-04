@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.chillseed.thepondhalloweenchills.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ArmorFeatureRendererMixin",
+    "HeadFeatureRendererMixin"
+  ]
+}

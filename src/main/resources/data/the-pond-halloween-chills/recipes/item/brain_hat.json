@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "i": {
+      "item": "the-pond-halloween-chills:koi_coin"
+    }
+  },
+  "result": {
+    "id": "the-pond-halloween-chills:brain_hat",
+    "count": 1
+  }
+}
